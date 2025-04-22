@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --snitap-sun: #ffcd1e;
+  --snitap-sky-mid: #06b6d4;
+  --snitap-sky-light: #67e8f9;
+  --snitap-joy-mid: #db2777;
+  --snitap-joy-light: #f472b6;
+  --snitap-leaf-mid: #16a34a;
+
+  --preto: #000000;
+  --branco: #fafafa;
+
+  --ff-base: "Montserrat", sans-serif;
+  --text-spam: 0.875rem;
+  --text-base: 1rem;
+  --text-l: 2.5rem;
+  --text-xl: 4rem;
+}
+
+html,
+button {
+  background-color: var(--branco);
+  font: 500 1rem/1.5 var(--ff-base);
+  overflow-x: hidden;
+}
+
+h1,
+h2 {
+  font-family: "Syne", sans-serif;
+}
+
+h1 {
+  font-size: var(--text-xl);
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: var(--text-l);
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: var(--preto);
+}
